@@ -7,10 +7,11 @@
 
 
 
-	#include <tn13Adef.inc>
+	#include "m8def.inc"
 
-	.equ	warmwhite = 0
-	.equ	coldwhite = 1
+	.equ	RED = 0
+	.equ	GREEN = 1
+	.equ	BLUE = 2
 
 	.def	memory = r0
 	.def	isr_save = r1
